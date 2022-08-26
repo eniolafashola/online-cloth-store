@@ -1,13 +1,13 @@
 import { createContext, useState, useEffect } from 'react';
-import { onAuthStateChangedListener } from '../utils/firebase/firebase.utils';
+import { onAuthStateChangedListener, createUserDocumentFromAuth } from '../utils/firebase/firebase.utils';
 
-//actual value I want to access
+
 export const UserContext = createContext({
+	setCurrentUser: () => null,
 	currentUser: null,
-	setcurrentUser: () => null,
 });
 
-//actual component
+
 export const UserProvider = ({ children }) => {
 	const [currentUser, setCurrentUser] = useState(null);
 	const value = { currentUser, setCurrentUser};
@@ -15,7 +15,10 @@ export const UserProvider = ({ children }) => {
 
 	useEffect(() => {
 		const unsuscribe = onAuthStateChangedListener((user) => {
-			console.log(user);
+			if(user) {
+				createUserDocumentFromAuth(user);
+			}
+			setCurrentUser(user);
 		});
 		return unsuscribe;
 	}, []);
