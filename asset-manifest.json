@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/eniolafashola/online-cloth-store/static/css/main.de0f6014.css",
-    "main.js": "/eniolafashola/online-cloth-store/static/js/main.663d2c96.js",
-    "static/js/787.a262c3e0.chunk.js": "/eniolafashola/online-cloth-store/static/js/787.a262c3e0.chunk.js",
-    "static/media/shopping-bag.svg": "/eniolafashola/online-cloth-store/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
-    "static/media/crown.svg": "/eniolafashola/online-cloth-store/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
-    "index.html": "/eniolafashola/online-cloth-store/index.html",
-    "main.de0f6014.css.map": "/eniolafashola/online-cloth-store/static/css/main.de0f6014.css.map",
-    "main.663d2c96.js.map": "/eniolafashola/online-cloth-store/static/js/main.663d2c96.js.map",
-    "787.a262c3e0.chunk.js.map": "/eniolafashola/online-cloth-store/static/js/787.a262c3e0.chunk.js.map"
+    "main.css": "/static/css/main.de0f6014.css",
+    "main.js": "/static/js/main.ed24c622.js",
+    "static/js/787.a262c3e0.chunk.js": "/static/js/787.a262c3e0.chunk.js",
+    "static/media/shopping-bag.svg": "/static/media/shopping-bag.a688874f6f1507316bdfa420328a4a53.svg",
+    "static/media/crown.svg": "/static/media/crown.3a4e2b15908e7a4c25343677d232b7e6.svg",
+    "index.html": "/index.html",
+    "main.de0f6014.css.map": "/static/css/main.de0f6014.css.map",
+    "main.ed24c622.js.map": "/static/js/main.ed24c622.js.map",
+    "787.a262c3e0.chunk.js.map": "/static/js/787.a262c3e0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.de0f6014.css",
-    "static/js/main.663d2c96.js"
+    "static/js/main.ed24c622.js"
   ]
 }
